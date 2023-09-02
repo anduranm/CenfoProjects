@@ -1,0 +1,65 @@
+:root {
+    --azulClaro: #134f5c;
+    --azulOscuro: #0a313a;
+    --rojo: #b34050;
+    --blanco: #ffffff;
+    --gris: #d3d3d3;
+    --negro: #000000;
+
+}* {
+    font-family: 'Roboto', sans-serif;
+}div {
+    box-sizing: border-box;
+}img {
+    display: inline-block;
+}
+
+
+.portada{
+    background-image: url('../../media/acrylic\ background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 7vw 0 8vw;
+}
+.logo{
+    text-align: center;
+    font-size: 8vw;
+    color: var(--blanco);
+}
+.logo2{
+    margin-top: 1vw;
+    text-align: center;
+    font-size: 6vw;
+    color: var(--blanco);
+}
+.main{
+    background-color: var(--blanco);
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+    /* position: absolute; */
+    bottom: 0;
+    padding: 7vw;
+}
+.btn1 {
+    background-color: var(--blanco);
+    color: var(--gris);
+    border: 0.5vw solid var(--gris);
+    padding: 0.5vw 0;
+    font-size: 3vw;
+    cursor: pointer;
+    border-radius: 3vw;
+    width: 35vw;
+}
+.btn2 {
+    background-color: var(--azulClaro);
+    color: var(--blanco);
+    border: 0.5vw solid var(--azulClaro);
+    padding: 0.5vw 0vw;
+    font-size: 3vw;
+    cursor: pointer;
+    border-radius: 3vw;
+    width: 35vw;
+}
+

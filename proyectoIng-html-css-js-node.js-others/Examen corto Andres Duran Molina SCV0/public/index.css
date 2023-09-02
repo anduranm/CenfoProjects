@@ -1,0 +1,180 @@
+:root {
+    --colorprincipal: #eab87e;
+    --colorprincipalVariante: #a07c54;
+    --coloraSecundario: #5c4135;
+    --colorBlanco: #ffffff;
+    --colorNegro: #000000;
+    --colorOpcion: #c4562b;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.nav {
+    background-color: var(--colorprincipal);
+    color: var(--colorBlanco);
+    height: 11.5vw;
+    font-size: 4vw;
+    text-align: center;
+}
+
+.linkRecetas {
+    color: var(--colorBlanco)
+}
+
+.titleTwo {
+    text-align: center;
+    font-size: 2vw;
+    color: var(--colorBlanco);
+    background-color: var(--colorprincipalVariante);
+    padding: 1vw;
+}
+
+.ingredientes {
+    background-image: url(image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* height: 35vw; */
+
+}
+
+
+
+.title {
+    padding: 0.7vw;
+}
+
+.cursive {
+    font-family: 'Alex Brush', cursive;
+    font-size: 4.7vw;
+}
+
+.ingredientes {
+    color: var(--colorBlanco);
+    text-align: center;
+    padding: 2vw 0 0 0;
+    font-size: 2.3vw;
+}
+
+.listaDeRecetas {
+    text-align: center;
+    font-size: 2vw;
+    color: var(--colorBlanco);
+    background-color: var(--colorprincipalVariante);
+    padding: 2vw 0;
+}
+
+
+.inputText {
+    border: 0.3vw solid var(--colorprincipal);
+    color: var(--colorNegro);
+    width: 23vw;
+    height: 2vw;
+    text-align: center;
+    background-color: var(--colorBlanco);
+    margin: 1vw 0;
+}
+
+::placeholder {
+    color: var(--colorprincipalVariante);
+}
+
+.IngredientesAseleccionar {
+    margin: 2vw 0 0 0;
+}
+
+.espacioEntre {
+    margin: 0 2vw 0 0;
+    color: var(--colorNegro);
+
+}
+
+.radioButton {
+    height: 1.5vw;
+    width: 1.5vw;
+}
+
+.send {
+    border-radius: 50px;
+    background-color: var(--coloraSecundario);
+    color: white;
+    padding: 0.4vw 1vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1vw;
+}
+
+.estilosTable {
+    width: 100%;
+    text-align: center;
+    font-size: 1.3vw;
+    color: var(--colorBlanco);
+    background-color: var(--coloraSecundario);
+}
+
+.initial {
+    font-family: 'Alex Brush', cursive;
+}
+
+.estilosTable,
+.estilosTable th,
+.estilosTable td {
+    border: 0.01vw solid var(--negro);
+    padding: 1.3vw;
+}
+
+.estilosTable td {
+    padding: 1.2vw 1vw;
+    font-size: 1.6vw;
+    text-align: center;
+    vertical-align: middle;
+    text-align: -webkit-center;
+}
+
+.titleTable {
+    font-size: 1.2vw;
+    background-color: var(--colorprincipal);
+    color: #ffffff;
+}
+
+.tituloTable {
+    font-size: 1vw;
+}
+
+.titleRow {
+    position: relative;
+}
+
+.tituloTableAcceptRefuse {
+    margin: 0;
+}
+
+
+.table-wrapper table {
+    /* border-collapse: separate; */
+    border-spacing: 0;
+}
+
+.table-wrapper table thead {
+    position: -webkit-sticky;
+    /* Safari... */
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.table-wrapper table thead th {
+    background-color: var(--colorBlanco);
+}
+
+.table-wrapper table tbody td {
+    background-color: var(--colorBlanco);
+}
+
+.tableForImg td img {
+    height: 1.6vw;
+    margin: 0.5vw 0px;
+}

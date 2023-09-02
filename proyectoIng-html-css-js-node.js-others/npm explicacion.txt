@@ -1,0 +1,53 @@
+CMD node -v
+
+dir 
+cd
+cd..
+mkdir nombredeldir
+
+puerto 5000 para arriba
+
+comdando node 
+node 
+npm 
+
+1 npm init 
+enter a todo
+
+2 npm install express
+npm install nodemon para mantener actualizada la data
+
+para ejecutar
+3 node index.js
+
+
+dentro de server index.js
+
+var express = require("express");
+var app = express (); 
+
+para llamar los json 
+fetch ("   .json")
+.then(function(){})
+
+npm run start 
+npm run dev [personalizado]
+
+reiniciar srvidor con cambio 
+nodemon index.js
+
+cerrar server ctrl + c
+
+para iniciar el servidor ahora es
+npm run "nombre de pag ejemplo dev"
+
+npm install mongoose   importante si no no funciona la base de datos 
+
+mongose.connect("aca va la direccion<password>");
+
+schemas (carpeta)
+
+para  instalar  funcioones de email   
+npm install nodemailer
+
+rkmffhnocnrjxgzt        password del google

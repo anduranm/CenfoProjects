@@ -1,0 +1,134 @@
+:root {
+    --azulClaro: #134f5c;
+    --azulOscuro: #0a313a;
+    --rojo: #b34050;
+    --blanco: #ffffff;
+    --gris: #d3d3d3;
+    --negro: #000000;
+
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+}
+
+.nav {
+    background-color: var(--azulClaro);
+    padding: 0.60vw 1vw 0.40vw;
+    display: flex;
+    justify-content: end;
+}
+
+.logo {
+    padding-right: 1.21vw;
+    animation: aparecer 1s ease-out forwards;
+}
+
+.logo1 {
+    font-size: 1.4vw;
+    color: var(--blanco);
+}
+
+.logo2 {
+    font-size: 1vw;
+    color: var(--blanco);
+    text-align: right;
+}
+
+.config {
+    height: 2.7vw;
+    animation: girar 10s linear infinite;
+    transform-origin: center center;
+}
+
+@keyframes girar {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes aparecer {
+    0% {
+        transform: translateX(-1100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+body {
+    background-color: var(--blanco);
+}
+
+.backgroundColorGray {
+    background-color: var(--gris);
+}
+
+.menu {
+    background-color: var(--blanco);
+    display: flex;
+    justify-content: center;
+    border-bottom: solid var(--negro) 0.3vw;
+}
+
+.aMenu {
+    text-decoration: none;
+    color: var(--negro);
+    font-size: 1.2vw;
+    margin: 0.80vw 2vw;
+}
+
+.active {
+    color: var(--gris);
+}
+
+.cerrar {
+    font-size: 2vw;
+    text-align: center;
+    margin: 18vw 0;
+}
+
+.botonesBitacora {
+    background-color: var(--azulClaro);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.cancelar {
+    background-color: var(--blanco);
+    color: var(--azulClaro);
+    border: none;
+    padding: 0.7vw 0vw;
+    font-size: 1.5vw;
+    cursor: pointer;
+    border-radius: 3vw;
+    width: 22vw;
+    margin: 1vw;
+}
+
+.salir {
+    background-color: var(--blanco);
+    color: var(--azulClaro);
+    border: none;
+    padding: 0.7vw 0vw;
+    font-size: 1.5vw;
+    cursor: pointer;
+    border-radius: 3vw;
+    width: 22vw;
+    margin: 1vw;
+}

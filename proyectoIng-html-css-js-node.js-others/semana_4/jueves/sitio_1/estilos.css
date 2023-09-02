@@ -1,0 +1,117 @@
+:root {
+    --colorazulprincipal: #000000;
+}
+div {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+}
+
+h1, h2, p, div {
+    margin: 0px;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav div h1, .nav div ul li, .nav div ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+} 
+
+.nav div h1 {
+    font-size: 30px;
+}
+
+.bloque-logo, .bloque-menu{
+    padding: 20px;
+    width: 50%;
+}
+
+.navegation {
+    display: inline-block;
+    list-style: none;
+    margin-right: 8%;
+    font-size: 22px;
+}
+
+.bloque-menu ul li a {
+    text-decoration: none;
+    color: var(--colorazulprincipal);
+}
+.imageA img {
+    width: 100%;
+}
+.contenedor1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.imagenB img {
+    width: 75%;
+    padding: 5%;
+    padding-top: 0px;
+}
+.imagenB {
+    padding-top: 10px; 
+    width: 60%;
+}
+
+.subcontenedor {
+    margin: 0px;
+    padding-left: 0;
+    padding-right: 5%;
+    width: 40%;
+}
+.encabezadoA {
+    margin: 0px;
+    margin-top: 15px;   
+}
+
+.encabezadoB {
+    margin-top: 60px;
+    padding-top: 0px;
+}
+.contenedor1 h2 {
+    font-size: 35px;
+}
+
+.contenedor1 p {
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+
+.video1 {
+    margin-top: 50px;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+.video1 iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 767px) {
+    .main {
+        width: 100%;
+        margin-left: 0%;
+    }
+   p  {
+    font-size: 15px;      
+    }
+    .imagenB, .subcontenedor {
+        width: 100%;
+    }
+
+}

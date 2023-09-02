@@ -1,0 +1,65 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" type="text/css" href="https://meyerweb.com/eric/tools/css/reset/reset200802.css">
+    <link rel="stylesheet" type="text/css" href="../../css/login/registro.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" type="image/gif" href="../../media/faviconSica.ico" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    </style>
+</head>
+<body>
+    <div class="contenedor1">
+        <div class="formularioregistro">
+          <h2 class="title title1">ProveGuard</h1>
+          <h3 class="title title2">Bienvenido</h2>
+          <h4 class="title title3">Registrarse</h3>
+          <form id="formularioregistro">
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre Completo"><br><br>
+            <input type="text" id="cedula" name="cedula" placeholder="Cédula" class="cedula"><br><br>
+            <input type="text" id="correo" name="correo" placeholder="Correo Electrónico" class="email"><br><br>
+            <div class="telycumple">
+              <div class="tel">
+                <input type="text" id="telefono" name="telefono" placeholder="Numero de Telefono" class="numero">
+              </div>
+              <div class="cumple">
+                <label for="nacimiento">Fecha Nacimiento:</label>
+                <input type="date" id="nacimiento" name="nacimiento">
+              </div>
+            </div>
+            <div class="rolysucursal">
+              <div class="sucursal">
+                <label for="sucursal">Sucursal</label>
+                <select title="sucursal" id="sucursal" name="sucursal">
+                  <option value="">Elige una sucursal</option>
+                  
+                </select>
+              </div>
+              <div class="rol">
+                <label for="rol">Rol</label>
+                <select title="rol" id="rol" name="rol">
+                  <option value="">Elige un rol</option>
+                  <option value="1">Jefe de Proveduría</option>
+                  <option value="2">Proveeduría</option>
+                  <option value="3">Inventario</option>
+                </select>
+              </div>
+            </div>
+            <div class="botones">
+              <a href="inicio.html" class="registrar">
+                <button class="cancelar" type="button">Cancelar</button>
+              </a>
+              <button onclick="insertar()" class="registro" type="button">Registrarse</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <script src="../../js/login/registro.js"></script>
+</body>
+</html>

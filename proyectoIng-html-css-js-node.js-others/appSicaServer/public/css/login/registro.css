@@ -1,0 +1,147 @@
+:root {
+    --azulClaro: #134f5c;
+    --azulOscuro: #0a313a;
+    --rojo: #b34050;
+    --blanco: #ffffff;
+    --gris: #d3d3d3;
+    --negro: #000000;
+
+}* {
+    font-family: 'Roboto', sans-serif;
+}div {
+    box-sizing: border-box;
+}
+body {
+	background-color:var(--gris);
+}
+.contenedor1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 7.30vw;
+    padding-bottom: 1.5vw;
+    border-color: var(--negro);
+}
+.formularioregistro{
+	background-color: var(--blanco);
+	padding: 2.60vw 7.28vw;
+	border-radius: 0.20vw;
+}
+.title{
+	text-align: center;
+	margin-bottom: 1vw;
+}
+.title1{
+    color: var(--azulOscuro);
+    font-size: 3.63vw;
+}
+.title2{
+    color: var(--azulClaro);
+    font-size: 2.64vw;
+}
+.title3 {
+	color:var(--negro);
+	font-size: 2vw;
+}
+
+input[type="text"], input[type="password"]{
+	width: 100%;
+	padding: 0.40vw;
+	text-align: center;
+	font-size: 1.1vw;
+}
+
+.telycumple{
+	display: flex;
+	align-items: center;
+}
+.tel{
+width: 50%;
+}
+.cumple{
+	padding-left: 1vw;
+	padding-bottom: 0.8vw;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	font-size: 1.1vw;
+	align-items: center;
+	color: var(--azulOscuro);
+	font-weight: bold;
+}
+.rolysucursal{
+	display: flex;
+}
+.rol, .sucursal{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	color: var(--azulOscuro);
+	font-size: 1.1vw;
+	font-weight: bold;
+}
+.rol{
+	padding-left: 0.5vw;
+}
+.sucursal{
+	padding-right: 0.5vw;
+}
+select[title="sucursal"], select[title="rol"]{
+	border-radius: 1vw;
+	background-color: var(--azulOscuro);
+	color: var(--blanco);
+	text-align: center;
+	font-size: 1.1vw;
+}
+input[type="date"]{
+	font-size: 1vw;
+}
+.botones{
+	display: flex;
+	align-items: center;
+	padding-top: 1.5vw;
+	text-align: center;
+}
+.cancelar, .registro{
+	border-radius: 1vw;
+	font-size: 1.3vw;
+}
+.registro{
+	background-color: var(--azulClaro);
+	color: var(--blanco);
+	margin-left: 0.5vw;
+	width: 12vw;
+}
+.cancelar{
+	
+background-color: var(--gris);
+	
+color: var(--blanco);
+	
+border-color: var(--gris);
+	
+width: 12vw;
+}
+
+.registrar { 
+	width: 50%;
+}
+
+.cedula{
+	width: 100%;
+	padding: 0.40vw;
+	text-align: center;
+	font-size: 1.1vw;
+}
+.email{
+	width: 100%;
+	padding: 0.40vw;
+	text-align: center;
+	font-size: 1.1vw;
+}
+.numero{
+	width: 100%;
+	padding: 0.40vw;
+	text-align: center;
+	font-size: 1.1vw;
+}

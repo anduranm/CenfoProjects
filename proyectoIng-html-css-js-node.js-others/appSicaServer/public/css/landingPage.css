@@ -1,0 +1,205 @@
+:root {
+    --azulPrincipal: #2A3992;
+    --rojo: #b34050;
+    --blanco: #ffffff;
+    --gris: #d3d3d3;
+    --negro: #000000;
+
+}
+
+* {
+    font-family: 'Open Sans', Sans-serif ;
+    color: var(--blanco);
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    background-color: var(--azulPrincipal);
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+#proyectos{text-decoration-line: underline;}
+.logoCompleto,
+.nav2 {
+    display: flex;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+}
+
+.divLogo {
+    width: 25%;
+}
+
+.logoP {
+    height: 9vw;
+}
+
+.logov1 {
+    font-size: 3.4412955465587043vw;
+}
+
+.logov2 {
+    text-align: right;
+    font-size: 0.6vw;
+}
+
+.opciones {
+    font-size: 1.21vw;
+    width: 33.33%;
+}
+
+.oficina {
+    height: 51.785425vw;
+}
+
+.aboutUs {
+    text-align: center;
+    color: var(--negro);
+    margin: 5vw 0 5vw 0;
+    font-size: 4vw;
+}
+
+.bloqueNosotros {
+    display: flex;
+    margin: 0px 0.6vw;
+}
+
+.boxesAboutUs {
+    border: solid 0.3vw var(--negro);
+    font-size: 0.97165991902834vw;
+    background-color: var(--azulPrincipal);
+    flex: 1;
+    margin: 0vw 3vw;
+    padding: 1vw 6px;
+}
+
+.titleAboutUS {
+    margin: 3vw 0;
+    font-size: 3vw;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Alex Brush', cursive;
+}
+
+.pAboutUS1 {
+    padding: 0 3vw 1vw;
+    font-size: 1.3vw;
+    text-align: center;
+}
+.pAboutUS2 {
+    padding: 1.9vw 3vw 1vw;
+    font-size: 1.3vw;
+    text-align: center;
+}
+.pAboutUS3{
+    padding: 0 3vw 0.5vw;
+    font-size: 1.3vw;
+    text-align:center;
+}
+
+.objetivos {
+    text-align: center;
+    font-size: 2vw;
+    text-decoration: none;
+}
+.titleObjetivo {
+    color: var(--negro);
+    margin: 4vw 0 0 0;
+    font-size: 3vw;
+}
+.parrafoObjetivo {
+    color: var(--negro);
+    margin: 3vw 0 0 0;
+    font-size: 1.9vw;
+    padding: 0 5vw;
+}
+.anexo {
+    font-size: 2.2267206477732793vw;
+    margin: 3.0364372469635628vw;
+    padding: 1.5vw 0;
+    border: solid 0.3vw var(--negro);
+    border-bottom: none;
+    text-align: center;
+    background-color: var(--azulPrincipal);
+}
+.titleAnexo {
+    font-size: 3.5vw;
+    font-family: 'Alex Brush', cursive;
+}
+.Equipo {
+    border: solid 0.3vw var(--negro);
+    border-top: none;
+    background-color: var(--azulPrincipal);
+    text-align: center;
+    display: flex;
+    margin: 3.0364372469635628vw;
+    padding: 2.42914979757085vw;
+}
+.fotoEquipo {
+   height: 20vw;
+   margin: 0 0 3vw;
+}
+.nombre{
+    font-size: 2.2vw;
+    margin: 0 0 2vw;
+}
+.subtitulo {
+    padding-top: 2vw;
+    font-size: 1.5vw;
+}
+.Compañero {
+    flex: 1;
+    width: 33%;
+}
+.piePagina {
+    display: flex;
+    border: solid 0.3vw var(--negro);
+    font-size: 0.97165991902834vw;
+    background-color: var(--azulPrincipal);
+    margin: 3.0364372469635628vw;
+}
+.datosContacto {
+    width: 50%;
+    text-align: center;
+    align-self: center;
+}
+.divLogoPie{
+    width: 50%;
+    text-align: center;
+    margin: 1vw;
+}.contact{
+    margin: 1vw 0 0;
+    font-size: 2vw;
+}
+.logoC {
+    height: 1.2vw;
+    padding-right: 2vw;
+}
+.logoT {
+    height: 1.5vw;
+    padding-right: 2vw;
+}
+
+.correo {
+    display: flex;
+    margin: 2vw 15vw 0;
+}
+
+.numero {
+    display: flex;
+    margin: 0.9vw 18vw 0;
+}
+.letterContact{
+    font-size: 0.9vw;
+}
+
+.logoM{
+    height: 1.8vw;
+}
+

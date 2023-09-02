@@ -1,0 +1,35 @@
+:root {
+    --azulClaro: #134f5c;
+    --azulOscuro: #0a313a;
+    --rojo: #b34050;
+    --blanco: #ffffff;
+    --gris: #d3d3d3;
+    --negro: #000000;
+}
+
+.botonesReportes {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: 5vw 0;
+}
+.users, .allUsers, .shop, .stock, .donations {
+    background-color: var(--azulOscuro);
+    color: var(--blanco);
+    border: none;
+    padding: 0.7vw 0vw;
+    font-size: 1.5vw;
+    cursor: pointer;
+    border-radius: 3vw;
+    width: 22vw;
+}
+.btn {
+    margin: 1.5vw 0 0;
+}
+
+.adDescarga {
+    color:var(--negro);
+    font-size: 3vw;
+    margin: 0 0 3vw;
+}

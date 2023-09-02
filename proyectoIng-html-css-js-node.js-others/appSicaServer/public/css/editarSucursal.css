@@ -1,0 +1,83 @@
+:root {
+    --azulClaro: #134f5c;
+    --azulOscuro: #0a313a;
+    --rojo: #b34050;
+    --blanco: #ffffff;
+    --gris: #d3d3d3;
+    --negro: #000000;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 1.6194331983805668vw;
+    padding: 1vw;
+    color: var(--azulOscuro);
+    text-align: center;
+}
+
+.titulo{
+    text-align: center;
+    padding: 2vw;
+}
+
+.textoPequeño{
+    width: 20vw;
+    height: 2vw;
+    font-size: 1.5vw;
+
+}
+
+.encuesta{
+    display: flex;
+    margin: 2vw;
+}
+
+.textoGrande{
+    width: 20vw;
+    height: 6.5vw;
+}
+
+.primeraMitad{
+    margin-left:20vw;
+}
+
+.segundaMitad{
+    margin-left: 15vw;
+}
+
+.cancelar {
+    background-color: var(--blanco);
+    color: var(--azulClaro);
+    border: none;
+    border-radius: 1vw;
+    margin: 1vw;
+    padding: 0.7vw;
+    width: 8vw;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+.aceptar {
+    background-color: var(--blanco);
+    color: var(--azulClaro);
+    border: none;
+    border-radius: 1vw;
+    margin: 1vw;
+    padding: 0.7vw;
+    width: 8vw;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+.piePagina {
+    background-color: var(--azulClaro);
+    padding: 0.4vw;
+    align-items: center;
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
+    padding-left: 40vw;
+}

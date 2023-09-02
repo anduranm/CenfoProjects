@@ -1,0 +1,92 @@
+:root {
+    --azulClaro: #134f5c;
+    --azulOscuro: #0a313a;
+    --rojo: #b34050;
+    --blanco: #ffffff;
+    --gris: #d3d3d3;
+    --negro: #000000;
+}
+* {
+    font-family: 'Roboto', sans-serif;
+    color: var(--blanco);
+}
+div {
+    box-sizing: border-box;
+}
+.logocompleto {
+    display: flex;
+    background-color: var(--azulOscuro);
+    align-items: center;
+}
+.logo, .lema, .pruebalo{
+    padding: 0.5vw;
+    text-align: center;
+    width: 33.33%;
+}
+.logo{
+  font-size: 3.5vw;
+}
+.lema{
+    font-size: 1.5vw;
+}
+.logov2{
+    border-radius: 1.5vw;
+    background-color: var(--blanco);
+    color: var(--negro);
+    width: 15.2vw;
+    text-align: center;
+    font-size: 1.0vw;
+    font-weight: bold;
+}
+nav {
+    background-color: var(--azulClaro);
+    text-align: center;
+    font-size: 1.5vw;
+    border: black;
+}
+.navegacion{
+    display: flex;
+}
+.opciones {
+   text-align: center;
+   width: 33.33%;
+   text-decoration: none;
+   border-left: var(--negro);
+   border-right: var(--negro);
+}
+.foto{
+    width: 100%;
+}
+.proposito, .caracteristicas, .ventajas{
+    text-align: justify;
+    background-color: var(--gris);
+    padding: 1.5vw;
+    margin: 2vw;
+    width: 50%;
+    color: var(--negro);
+}
+main{
+    background-color: var(--blanco);
+}
+.proposito{
+    margin-left: 3vw;
+}
+.caracteristicas{
+    margin-left: 25vw;
+}
+.ventajas{
+    margin-left: 45vw;
+}
+.titulo, .texto, .subtexto{
+    color: var(--negro); ;
+}
+.titulo{
+     font-size: 3vw;
+}
+.texto{
+    font-weight: bold;
+    font-size: 2vw;
+}
+.subtexto{
+    font-size: 1.5vw;
+}

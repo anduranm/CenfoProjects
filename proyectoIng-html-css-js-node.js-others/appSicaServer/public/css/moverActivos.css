@@ -1,0 +1,136 @@
+:root {
+    --azulClaro: #134f5c;
+    --azulOscuro: #0a313a;
+    --rojo: #b34050;
+    --blanco: #ffffff;
+    --gris: #d3d3d3;
+    --negro: #000000;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*--------------comienzo de los estilos---------------*/
+.titulo {
+    font-size: 1.6194331983805668vw;
+    padding: 1vw;
+}
+
+
+.texto {
+    font-size: 0.8097165991902834vw;
+    padding: 0.5vw;
+}
+
+.encuesta {
+    padding: 3.4412955465587043vw;
+    align-content: center;
+}
+
+.sede {
+    padding: 0.5vw;
+    color: var(--azulClaro);
+}
+
+.boton {
+    border: none;
+    background-color: var(--azulOscuro);
+    color: var(--blanco);
+    cursor: pointer;
+    border-radius: 1vw;
+    text-align: center;
+    padding: 0.4vw;
+    height: 2vw;
+    width: 13vw;
+    font-size: 0.9vw;
+
+}
+
+.subtitulo {
+    font-size: 1.5vw;
+    padding: 1vw;
+}
+
+.espacioTexto {
+    text-align: left;
+    height: 6.5vw;
+    width: 32vw;
+    padding-left: 2vw;
+    background-color: var(--blanco);
+    font-size: 1vw;
+}
+
+.cancelar {
+    background-color: var(--blanco);
+    color: var(--azulClaro);
+    border: none;
+    border-radius: 1vw;
+    margin: 1vw;
+    padding: 0.7vw;
+    width: 8vw;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+.aceptar {
+    background-color: var(--blanco);
+    color: var(--azulClaro);
+    border: none;
+    border-radius: 1vw;
+    margin: 1vw;
+    padding: 0.7vw;
+    width: 8vw;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+.piePagina {
+    background-color: var(--azulClaro);
+    padding: 0.4vw;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: -webkit-fill-available;
+    /* margin: 17vw 0 0 0; */
+}
+
+.tablaMover{
+    text-align: -webkit-center;
+    margin: 0 0 0vw 0;
+    padding: 0 0 10vw 0;
+}
+.estilosTablaMover {
+    width: 70%;
+    text-align: center;
+    font-size: 1.3vw;
+    background-color: var(--blanco);
+}
+
+.estilosTablaMover,
+.estilosTablaMover th,
+.estilosTablaMover td {
+    border: 0.01vw solid var(--negro);
+    margin: 0 0vw 0 1px;
+}
+
+.estilosTablaMover td {
+    padding: 0.2vw 1vw;
+    font-size: 1vw;
+    text-align: center;
+    vertical-align: middle;
+    text-align: -webkit-center;
+}
+
+.titleTable {
+    font-size: 1.2vw;
+}
+
+.tituloTable {
+    margin: 0 3vw;
+    font-size: 1.2vw;
+}
+
+main{
+    text-align: center;
+}

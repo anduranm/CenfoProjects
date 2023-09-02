@@ -1,0 +1,143 @@
+:root {
+    --azulClaro: #134f5c;
+    --azulOscuro: #0a313a;
+    --rojo: #b34050;
+    --blanco: #ffffff;
+    --gris: #d3d3d3;
+    --negro: #000000;
+
+}
+
+
+.navSucursales {
+    background-color: var(--azulOscuro);
+    display: flex;
+    padding: 0.5vw 0vw;
+}
+.btnNuevaSucursal {
+    background-color: var(--blanco);
+    color: var(--azulClaro);
+    cursor: pointer;
+    border-radius: 3vw;
+    width: 14vw;
+    margin: 0px 0vw 0 9vw;
+    font-size: 1.2vw;
+}
+
+.btnDeshabilitados{
+    background-color: var(--blanco);
+    color: var(--azulClaro);
+    cursor: pointer;
+    border-radius: 3vw;
+    width: 12vw;
+    margin: 0px 0vw 0  5.7vw;
+    font-size: 1.2vw;
+}
+
+.buscar{
+    background-color: var(--blanco);
+    color: var(--azulClaro);
+    font-size: 1vw;
+    cursor: pointer;
+    width: 40vw;
+    margin: 0 1.5vw 0 0vw;
+}
+.search {
+    display: flex;
+    margin: 0vw 2vw 0 6.5vw;
+}
+.imgBuscar{
+    height: 2vw;
+    cursor: pointer;
+}
+.btnSucursal{
+    align-self: center;
+}
+
+
+.menuDespliegueFiltro {
+    font-size: 1.5vw;
+    color: var(--blanco);
+    margin: 0 14vw;
+    display: flex;
+}
+.filtroSolicitudes {
+    font-size: 1vw;
+    background-color: var(--blanco);
+    color: var(--azulClaro);
+    border: none;
+    padding: 0.5vw 0;
+    cursor: pointer;
+    border-radius: 3vw;
+    width: 11vw;
+    text-align: center;
+    appearance: none;
+    background-image: url('../media/arrow\ white.png');
+    background-repeat: no-repeat, repeat;
+    background-position: right 1.2vw top 54%, 0 0;
+    background-size: 1vw auto, 100%;
+}
+
+
+.table-wrapper{
+    height: 42vw;
+    /* Altura de ejemplo */
+    overflow: auto;
+    width: 100%;
+}
+.estilosTable {
+    width: 100%;
+    text-align: center;
+    font-size: 1.3vw;
+}
+ 
+.estilosTable, .estilosTable th, .estilosTable td {
+    border: 0.01vw solid var(--negro);
+}
+ 
+.estilosTable td {
+    padding: 0.2vw 2vw;
+    font-size: 1vw;
+    text-align: center;
+    vertical-align: middle;
+    text-align: -webkit-center;
+}
+.titleTable{
+    font-size: 1.2vw;
+}
+.tituloTable{
+    margin: 0 4vw;
+    font-size: 1.2vw;
+}
+
+.titleRow{
+position: relative;
+}
+.tituloTableAcceptRefuse{
+    margin: 0;
+}
+
+  
+  .table-wrapper table {
+    /* border-collapse: separate; */
+    border-spacing: 0;
+  }
+  
+  .table-wrapper table thead {
+    position: -webkit-sticky; /* Safari... */
+    position: sticky;
+    top: 0;
+    left: 0;
+  }
+  
+  .table-wrapper table thead th{
+    background-color: var(--blanco);
+  }
+  .table-wrapper table tbody td {
+    background-color: var(--blanco);
+  }
+
+.tableForImg td img{
+    height: 2vw;
+    margin: 1vw 0;
+}

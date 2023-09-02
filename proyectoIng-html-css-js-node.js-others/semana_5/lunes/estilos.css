@@ -1,0 +1,164 @@
+:root {
+    --colorazulprincipal: #03374d;
+    --colorfont2: #333333;
+    --colorfontwhite: #ffffff;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+body {
+    background-image:url(img/carros.png), url(img/bg.jpg);
+    background-position: center;
+    background-position: 0px 460px, top;
+    background-repeat: no-repeat, no-repeat;
+    background-size:contain;
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, p {
+    margin: 0;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 100px;
+    color: var(--colorazulprincipal);
+}
+
+h2 {
+    font-size: 60px;
+    color: var(--colorfont2);
+}
+
+p{
+    font-size: 30px;
+    color: var(--colorazulprincipal);
+}
+
+.main-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1050px;
+}
+
+.wrap1 {
+    width: 50%;
+    padding-left: 4%;
+    padding-right: 4%;
+    
+}
+.wrap2 {
+    width: 50%;
+    padding-top: 70px;
+    padding-left: 4%;
+    padding-right: 2%;
+
+}
+
+.imgSocialMedia {
+    width: 100%;
+    padding-top: 95px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imgSocialMedia img {
+    width: 80%;
+    align-content: center;
+}
+
+.imgIconos {
+    width: 100%;
+    padding-top: 45px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imgIconos img {
+    width: 60%;
+    align-content: center;
+}
+
+.imgIconos h2 {
+    color: var(--colorazulprincipal);
+    font-size: 30px;
+    padding-top: 20px;
+    
+}
+
+.flexbox1 {
+    text-align: center;
+    width: 25%;
+    padding-right: 5%;
+}
+
+footer {
+    background-color: var(--colorazulprincipal);
+    margin-top: 180px;
+    padding-top: 80px;
+    padding-bottom: 150px;
+    display: flex;
+    flex-wrap: nowrap; 
+}
+
+
+.logo-footer {
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 30%;
+    margin: auto;
+}
+
+.footer img {
+   width: 100%;
+   align-content: center;
+}
+
+.direction {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+footer p {
+    color: var(--colorfontwhite);
+    font-size: 30px;
+}
+
+@media (max-width: 767px) {
+    .main-wrap, .wrap1,.wrap2, div, .logo-footer, .direction{
+        width: 100%;
+    }
+    .imgIconos, .imgSocialMedia, footer {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .imgIconos img, .imgSocialMedia img, .logo-footer, .direction {
+        width: 100%;
+    }
+     .imgSocialMedia img {
+        padding-bottom: 40px;
+     }
+    .imgIconos h2 {
+        padding-bottom: 40px;
+    } 
+    .logo-footer img {
+        padding-left:27%;
+    }
+    p {
+        font-size: 20px;        
+    }
+    .direction {
+        margin-top: 30px;
+    }
+    footer p {
+        font-size: 18px;
+
+    }
+}

@@ -1,0 +1,31 @@
+div {
+    box-sizing: border-box;
+}
+/* importante para arreglar problemas de responsive */
+.parrafo-1 {
+    background-color: #176444;
+    padding: 88px;
+    width: 50%;
+}
+/* el margen lo tomamos de ultima opcion */
+.parrafo-2 {
+    background-color: #0b2253;
+    margin: 50px;
+    width: 50%;
+}
+
+.parrafo-3 {
+    background-color: #94182d;
+}
+
+.parrafo-1, .parrafo-2, .parrafo-3 {
+    border: 3px solid #000000;
+}
+
+/* weidth y height se usan en porcentajes */
+
+@media (max-width: 767px) {
+    .parrafo-1, .parrafo-2, .parrafo-3{
+        width: 100%;
+    }
+}

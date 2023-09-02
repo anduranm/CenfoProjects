@@ -1,0 +1,64 @@
+:root {
+    --azulClaro: #134f5c;
+    --azulOscuro: #0a313a;
+    --rojo: #b34050;
+    --blanco: #ffffff;
+    --gris: #d3d3d3;
+    --negro: #000000;
+
+}* {
+    font-family: 'Roboto', sans-serif;
+}div {
+    box-sizing: border-box;
+}
+body {
+	background-color:var(--gris);
+}
+.contenedor1 {
+	display: flex;
+	justify-content: center;
+	padding-top: 7.30vw;
+	padding-bottom: 1.5vw;
+}
+.formulariologin {
+	background-color: var(--blanco);
+	padding: 2.60vw 7.28vw;
+	border-radius: 0.20vw;
+}
+.titulo{
+	text-align: center;
+	margin-bottom: 1.5vw;
+}
+.titulo1{
+    color: var(--azulOscuro);
+    font-size: 4vw;
+}
+.titulo2{
+    color: var(--azulClaro);
+    font-size: 2vw;
+}
+.titulo3{
+    display: flex;
+    font-size: 1.1vw;
+    justify-content: center;
+    padding-bottom: 1.2vw;
+}
+
+ input[type="password"]{
+	display: block;
+	width: 100%;
+	padding: 0.40vw;
+	text-align: center;
+    font-size: 1.2vw;
+}
+.restablece{
+	background-color:var(--azulClaro);
+	color: var(--blanco);
+	cursor: pointer;
+	border-radius: 1vw;
+	padding: 0.40vw;
+	width: 100%;
+    font-size: 1.2vw;
+}
+
+

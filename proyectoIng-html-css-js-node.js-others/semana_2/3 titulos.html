@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <header>
+        <title>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</title>
+    </header>
+    <div class="titles">
+      <h1>A</h1>
+      <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        <h2>B</h2>
+        <p>Lorem Ipsum is not simply random text. It hasroots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+      <h3>C</h3>
+      <p>Lorem Ipsum book is a treatise on the theory of ethics, very popular during the Renaissance. first line of Lorem Ipsum</p>
+      <img src="https://ihdemu.com/images/blog/que-es-lorem-ipsum.jpg" width="500px" height="300px" >  
+      <br><br>    
+      <!-- Orden: Tabla, Fila, y Columna -->
+    </div>
+    <div class="tables">  
+      <table border="1" >
+        <!-- Table Row -->
+        <tr>
+          <td>Contenido 1</td> <!-- Table Data -->
+          <td>Contenido 2</td> <!-- Table Data -->
+          <td colspan="2">Contenido 3</td>
+          <!-- el colspan es rellenar espacio horizontal -->
+        </tr>
+        <tr>
+          <td>Contenido 4</td> <!-- Table Data -->
+          <td colspan="2">Contenido 5</td>
+          <td>Contenido 6</td> <!-- Table Data -->
+        </tr>
+        <tr>
+          <td>Contenido 7</td> <!-- Table Data -->
+          <td>Contenido 8</td>
+          <td rowspan="2">Contenido 9</td>
+        <!-- El rowspan es rellena espacio horizontal -->
+        <td>Contenido 10</td> <!-- Table Data -->
+        </tr>
+        <tr>
+          <td>Contenido 11</td> <!-- Table Data -->
+          <td>Contenido 12</td> <!-- Table Data -->
+          <td>Contenido 13</td> <!-- Table Data -->
+        </tr>
+      </table>
+    </div>
+    <br><br>   
+    <div class="ejercicio">
+      <table border="3">
+        <tr class="1">
+          <td colspan="3">A</td>
+          <td>B</td>
+        </tr>
+        <tr class="2">
+          <td>C</td>
+          <td colspan="2">D</td>
+          <td rowspan="2">E</td>
+        </tr>
+        <tr class="3">
+          <td>F</td>
+          <td>G</td>
+          <td>H</td>
+        </tr>
+        <tr class="4">
+          <td rowspan="2">I</td>
+          <td colspan="3">J</td>
+        </tr>
+        <tr class="5">
+          <td>K</td>
+          <td colspan="2">L</td>
+        </tr>
+        <tr class="6">
+          <td colspan="2">N</td>
+          <td>M</td>
+          <td>O</td>
+        </tr>
+      </table>
+    </div>
+    <div class="Listas">
+      <ol>
+        <!-- lista ordenada -->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ol>
+      <ul>
+        <!-- lista desordenada -->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+    </div>
+    <div class="Formularios y botones">
+      <form>
+        <p><input placeholder="Name" name="name" minlength="10" maxlength="20" type="text"required/> </p>
+        <p><input name="Number" type="number" step="0.1" min="10" max="5000"></p>
+        <p><input placeholder="Phone Number" name="phone"  maxlength="8" type="text" required onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;">   </p>
+        <p><input placeholder="Email" name="email" type="email"required/> </p>
+        <p><input placeholder="Password" name="password" type="password"required/> </p>
+        <p><input type="radio" name="selection">Opción A</p>
+        <p><input type="radio" name="selection">Opción B</p>
+        <p><input type="radio" name="selection">Opción C</p>
+        <p><input type="checkbox" name="opcion">Opción 1</p>
+        <p><input type="checkbox" name="opcion">Opción 2</p>
+        <p><input type="checkbox" name="opcion">Opción 3</p>
+        <select>
+          <option selected disabled hidden>Selecciona una opción</option>
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+        </select>
+        <p><input placeholder="Send" name="send" type="submit"required/> </p>
+      </form>
+    </div>
+    <footer>
+    </footer>
+  </body>
+</html>

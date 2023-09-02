@@ -1,0 +1,34 @@
+h1 {
+text-decoration: overline;
+text-shadow: 10px 10px 17px ;
+}
+
+.primero p {
+    color: purple;
+}
+
+.segundo h2 {
+    text-align: center;
+}
+.segundo .pgrey {
+    color: grey;
+    ;
+}
+.segundo .pred {
+    color: red;
+    line-height: 40px;
+    text-align: center;
+}
+
+.tercero {
+    background-color: #123453;
+    margin: 5px;
+    padding: 10px;
+    border: 5px;
+}
+.tercero p {
+    color: grey;
+    word-spacing: 30px;
+}
+
+

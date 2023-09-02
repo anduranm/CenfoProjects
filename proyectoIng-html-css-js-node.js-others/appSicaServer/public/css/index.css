@@ -1,0 +1,24 @@
+:root {
+    --azulClaro: #134f5c;
+    --azulOscuro: #0a313a;
+    --rojo: #b34050;
+    --blanco: #ffffff;
+    --gris: #d3d3d3;
+    --negro: #000000;
+
+}
+
+
+.bienvenida {
+    font-size: 3vw;
+    text-align: center;
+    margin: 13vw 0 15vw 0;
+    color: var(--blanco);
+}
+main{
+    background-image: url('../../media/acrylic\ background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 7vw 0 8vw;
+}

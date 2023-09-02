@@ -1,0 +1,174 @@
+:root {
+	--azulClaro: #134f5c;
+	--azulOscuro: #0a313a;
+	--rojo: #b34050;
+	--blanco: #ffffff;
+	--gris: #d3d3d3;
+	--negro: #000000;
+
+}
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+.contenedor1 {
+	display: flex;
+	justify-content: center;
+	padding-top: 4.3vw;
+	padding-bottom: 1.5vw;
+	border-color: var(--negro);
+}
+
+.formularioregistro {
+	background-color: var(--blanco);
+	padding: 2.60vw 7.28vw;
+	border-radius: 0.20vw;
+	text-align: center;
+}
+
+.title1 {
+	color: var(--negro);
+	font-size: 1.7vw;
+	text-align: center;
+	margin-bottom: 1vw;
+}
+
+input[type="text"],
+input[type="password"] {
+	width: 100%;
+	padding: 0.40vw;
+	text-align: center;
+	font-size: 1.1vw;
+}
+
+.email {
+	width: 100%;
+	padding: 0.40vw;
+	text-align: center;
+	font-size: 1.1vw;
+}
+
+.number {
+	width: 100%;
+	padding: 0.40vw;
+	text-align: center;
+	font-size: 1.1vw;
+}
+
+.telycumple {
+	display: flex;
+	align-items: center;
+}
+
+.tel {
+	width: 50%;
+	padding-bottom: 0.2vw;
+}
+
+.alllabels {
+    display: flex;
+    font-size: 1.0vw;
+    justify-content: center;
+
+}
+
+.cumple {
+	padding-left: 1vw;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	font-size: 1.1vw;
+	align-items: center;
+	color: var(--azulOscuro);
+	font-weight: bold;
+}
+
+.rolysucursal {
+	display: flex;
+	/* align-items: center; */
+}
+
+.roles,
+.sucursal {
+	width: 50%;
+	text-align: center;
+	color: var(--azulOscuro);
+	font-size: 1.1vw;
+	font-weight: bold;
+	align-items: center;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+
+.sucursalOpcionesDespliegue {
+	font-size: 1vw;
+	background-color: var(--azulClaro);
+	color: var(--blanco);
+	border: none;
+	padding: 0.5vw 0 0.5vw 0.7vw;
+	cursor: pointer;
+	border-radius: 3vw;
+	width: 11vw;
+	appearance: none;
+	background-image: url('../media/arrow\ white.png');
+	background-repeat: no-repeat, repeat;
+	background-position: right 0.9vw top 54%, 0 0;
+	background-size: 1vw auto, 100%;
+}
+.rolOpcionesDespliegue{
+	font-size: 1vw;
+	background-color: var(--negro);
+	color: var(--blanco);
+	border: none;
+	text-align: center;
+	padding: 0.5vw 0 0.5vw 0vw;
+	cursor: pointer;
+	border-radius: 3vw;
+	width: 11vw;
+	appearance: none;
+	background-image: url('../media/arrow\ white.png');
+	background-repeat: no-repeat, repeat;
+	background-position: right 0.9vw top 54%, 0 0;
+	background-size: 1vw auto, 100%;
+}
+input[type="date"] {
+	font-size: 1vw;
+}
+
+.botonesNuevoUsuario {
+	/* display: flex; */
+	align-items: center;
+	padding-top: 1.5vw;
+	text-align: center;
+}
+
+.cancelar,
+.registro {
+	border-radius: 1vw;
+	font-size: 1.3vw;
+}
+
+.registro {
+	background-color: var(--azulClaro);
+	color: var(--blanco);
+	margin-left: 0.5vw;
+	width: 12vw;
+}
+
+.cancelar {
+	background-color: var(--gris);
+	color: var(--blanco);
+	border-color: var(--gris);
+	margin-right: 0.5vw;
+	width: 12vw;
+}
+
+.sucursalBase {
+	font-size: 1vw;
+}

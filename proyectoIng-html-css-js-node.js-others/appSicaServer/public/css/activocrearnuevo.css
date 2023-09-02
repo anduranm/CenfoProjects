@@ -1,0 +1,120 @@
+:root {
+    --azulClaro: #134f5c;
+    --azulOscuro: #0a313a;
+    --rojo: #b34050;
+    --blanco: #ffffff;
+    --gris: #d3d3d3;
+    --negro: #000000;
+}* {
+    font-family: 'Roboto', sans-serif;
+}div {
+    box-sizing: border-box;
+}
+
+.contenedor1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 0.8vw;
+    border-color: var(--negro);
+}
+.formularioregistro{
+	background-color: var(--blanco);
+	padding: 2.60vw 7.28vw;
+	border-radius: 0.20vw;
+}
+.title2{
+	text-align: center;
+	margin-bottom: 1vw;
+	color: var(--azulClaro);
+	font-size: 2vw;
+}
+.alllabels{
+    display: flex;
+    font-size: 1.0vw;
+    justify-content: center;
+    padding-bottom: 0.8vw;
+}
+
+input[type="text"]{
+	width: 100%;
+	padding: 0.40vw;
+	text-align: center;
+	font-size: 0.7vw;
+}
+textarea[name="descripcionactivo"]{
+    height: 6vw;
+	resize: none;
+	width: 100%;
+	text-align: center;
+	font-size: 0.7vw;
+    padding: 1.4vw 0;
+
+}
+input[name="comentario"]{
+    height: 2vw;
+	margin-bottom: 2vw;
+}
+.siyno{
+	display: flex;
+	align-items: center;
+    
+}
+.no, .si{
+	padding-bottom: 0.8vw;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	font-size: 1.1vw;
+	align-items: center;
+	color: var(--azulOscuro);
+	font-weight: bold;
+}
+
+ .sucursal{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	color: var(--azulOscuro);
+	font-size: 1.1vw;
+	font-weight: bold;
+	padding-right: 0.5vw;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding-bottom: 2vw;
+}
+
+select[title="sucursal"]{
+	border-radius: 1vw;
+	background-color: var(--azulOscuro);
+	color: var(--blanco);
+	text-align: center;
+	font-size: 1.1vw;
+}
+.botones1{
+	display: flex;
+	justify-content: center;
+	padding-top: 1vw;
+	text-align: center;
+	background-color: var(--azulClaro);
+	padding-bottom: 1vw;
+}
+.cancelar, .registro{
+	border-radius: 1vw;
+	font-size: 1.3vw;
+    background-color: var(--blanco);
+    color: var(--azulClaro);	
+    width: 12vw;
+}
+.registro{
+	margin-left: 0.5vw;
+}
+.cancelar{
+margin-right: 0.5vw;
+}
+.footerbotones {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

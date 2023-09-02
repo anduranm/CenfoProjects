@@ -1,0 +1,350 @@
+:root {
+    --colorfontblack: #444444;
+    --colorfontwhite: #ffffff;
+    --colorfontGrey: #a5a5a5;
+    --colorfontP:#222222;
+    --colorBlacktrasparente: #00000050;
+}
+div {
+    box-sizing: border-box;
+}h1, h2, p, iframe, ul, li, nav{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.nav-menu ul li, .nav-menu ul li a {
+    text-decoration: none;
+    color: var(--colorfontGrey);
+}.nav {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}.nav-logo {
+    width: 20%;
+}.nav-logo img {
+    width: 50%;
+}.nav-menu{
+    width: 80%;
+}.nav-menu ul{ 
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40%;
+    margin-right: 4%;
+    list-style: none;
+    font-size: 24px;
+}.nav-menu ul li {
+   font-size: 24px;
+   margin-right: auto;
+}
+
+.wrap-0 {
+    background-image:url(img/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width:100%;
+    aspect-ratio: 16/10;  
+}.wrap-0 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}.wrap-0 div {
+    width: 100%;
+    padding-top: 260px;
+}.wrap-0 img{
+    width: 17%;
+}.wrap-0 h2{
+    padding-top: 65px;
+    font-size: 75px;
+    color: var(--colorfontwhite);
+}.wrap-0 p{
+    padding-top: 40px;
+    font-size: 30px;
+    color: var(--colorfontwhite);
+}.boton_proyecto1{
+    font-size: 20px;
+    margin-top: 40px;
+    padding: 2%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 50px;
+    border-style: none;
+}
+
+.wrap-1 {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}.header{
+    margin-top: 100px;
+    width: 100%;
+}.header h2{
+    font-size: 42px;
+    color: var(--colorfontblack);
+    margin-bottom: 100px;
+}
+.seleccion {
+    width: 100%;
+}.seleccion ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 25%;
+    padding-right: 25%;
+    list-style-type:none;
+}.seleccion ul li{
+    margin-right: auto;
+}.seleccion ul li, .seleccion ul li a{
+   text-decoration: none;
+    font-size: 24px;
+    color: var(--colorfontGrey);
+    margin-right: auto;
+}
+
+
+.collage {
+    margin-top: 130px;
+    text-align: center;
+    font-size: 22px;
+    color: var(--colorfontGrey);
+}.collage-filasDe4 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%
+}.collage-filasDe4 .verBoton{
+  width:25%;
+}.collage-filasDe4 img{
+    width: 100%;
+}.collage-filasDe4 p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}.verMasProyectos{
+position: relative;
+width: 25%;
+}.collage__image-container{
+    position: relative;
+}.collage__image-container:hover img{
+    cursor: pointer;
+    filter: brightness(40%);
+    transition: filter .75s;
+}.collage__image-container:hover .verBoton{
+    opacity: 1;
+    transition: all .75s;
+}.verMasProyectos .verBoton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    opacity: 0;
+}.verBoton {
+    width: 100%;
+}.collage_boton{
+    font-size: 20px;
+    padding: 10%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 50px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.wrap_2 {
+    margin: 3%;
+    margin-top: 110px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 24px;
+}.mision_vision{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 130px;
+}.mision_vision div{
+ width: 50%;
+}.mision_vision h2{
+    margin-top: 52px;
+    font-size: 45px;
+    color: var(--colorfontblack);
+}.mision_vision p{
+    font-size: 22px;
+    margin-top: 42px;
+    color: var(--colorfontP);
+}.mision div, .vision div{
+    width: 70%;
+    margin: auto;
+}.boton_mision_vision{
+    background-color: var(--colorfontwhite);
+    font-size: 20px;
+    margin-top: 40px;
+    padding: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 50px;
+    border-style:solid;
+}
+
+.wrap3_testimonio {
+    background-image:url(img/testimonio.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}.wrap3_testimonio {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    color: var(--colorfontwhite);
+    padding-top: 150px;
+    font-size: 45px;
+    align-content: center;
+}.quote{
+    width: 20%;
+}.quote img{
+    width: 40%;
+}.interQuote{
+    width: 60%;
+}.ejemploTestimonio{
+    width: 70%;
+    margin: auto;
+    padding-bottom: 150px;
+}.wrap3_testimonio p{
+    font-style: italic;
+    font-size: 28px;
+}
+
+.wrap_map iframe{
+    width: 100%;
+}
+
+.wrap_empresas{
+    margin-top: 52px;
+    margin-bottom: 82px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 45px;
+}.wrap_empresas h2{
+    width: 100%;
+}.empresasIMG4{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 25%;
+    margin-right: 25%;
+}.empresasIMG4 div{
+    width: 25%;  
+}.empresasIMG3{
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30%;
+    margin-right: 30%;
+}.empresasIMG3 div{
+    width: 33.3%;
+}
+
+.redes_sociales {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    font-size: 45px;
+    border-top: solid var(--colorfontblack);
+}.redesIMG{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}.twitter{
+    width: 50%;
+    text-align: right;
+    padding-right: 4%;
+}.facebook{
+    width: 50%;
+    text-align: left;
+    padding-left: 4%;
+}
+
+footer {
+    margin-top: 500px;
+    margin-bottom: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    color: var(--colorfontwhite);
+    font-size: 25px;
+}.footerLogo{
+    width: 50%;
+}.footerLogo img{
+    width: 50%;
+}.contactos {
+    width: 50%;
+    text-align: left;
+    font-size: 20px;
+}.contactos div{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}.contactos div img{
+    width: 4%;
+    padding-right: 2%;
+}
+
+body {
+    background-image:url(img/footer.png);
+    background-position: center;
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+@media (max-width: 768px){
+    .wrap-0 div{
+        padding-top: 120px;
+    }.wrap-0 h2{
+        font-size: 18px;
+    }.wrap-0 p{
+        font-size: 15px;
+    }
+    .boton_proyecto1{
+        margin-top: 15px;
+        font-size: 15px;
+        padding: 2%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 50px;
+        border-style: none;
+    }.mision_vision img {
+        width: 50%;
+    }.empresasIMG4 img, .empresasIMG3 img{
+        width: 65%;
+    }.redes_sociales h1{
+        font-size: 22px;
+    }.redesIMG img{
+        width: 70%;
+    }
+
+    footer{
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }.footerLogo img{
+        width:50%;
+    }.contactos div img{
+        width: 5%;
+    }
+    .contactos p{
+        font-size: 15px;
+    }.collage_boton{    
+        font-size: 10px;
+        padding: 5%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 50px;
+        border-style: none;
+    }.collage-filasDe4 .verBoton p{
+        font-size: 15px;
+    }
+}

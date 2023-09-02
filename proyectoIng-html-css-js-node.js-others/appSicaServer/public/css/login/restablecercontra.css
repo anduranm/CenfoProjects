@@ -1,0 +1,59 @@
+:root {
+    --azulClaro: #134f5c;
+    --azulOscuro: #0a313a;
+    --rojo: #b34050;
+    --blanco: #ffffff;
+    --gris: #d3d3d3;
+    --negro: #000000;
+
+}* {
+    font-family: 'Roboto', sans-serif;
+}div {
+    box-sizing: border-box;
+}
+body {
+	background-color:var(--gris);
+}
+.contenedor1 {
+    display: flex;
+    justify-content: center;
+    padding: 7.30vw 20vw 1.5vw 20vw;
+    border-color: var(--negro);
+}
+.formularioregistro{
+	background-color: var(--blanco);
+	padding: 2.60vw 7.28vw;
+	border-radius: 0.20vw;
+}
+.titulo{
+	text-align: center;
+	margin-bottom: 1vw;
+}
+.restablecer{
+    color: var(--azulClaro);
+    font-size: 2.64vw;
+}
+.contraseña{
+    color: var(--azulClaro);
+    font-size: 2.64vw;
+}
+.texto{
+    padding: 2.0vw;
+    padding-top: 5vw;
+    text-align: center;
+    font-size: 1.5vw;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    padding-top: 5vw;
+}
+.volver{
+    font-size: 1.5vw;
+    background-color: var(--azulClaro);
+    color: var(--blanco);
+    border-radius: 1vw;
+    padding: 1.2vw;
+    padding-left: 5.5vw;
+    padding-right: 5.5vw;
+}

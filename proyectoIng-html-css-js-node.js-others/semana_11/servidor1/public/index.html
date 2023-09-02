@@ -1,0 +1,29 @@
+<html>
+  <head></head>
+  <body>
+    <input type="text" placeholder="Nombre" name="nombre" id="nombre" />
+    <input type="text" placeholder="Edad" name="edad" id="edad" />
+    <input type="text" placeholder="Carrera" name="carrera" id="carrera" />
+    <button onclick="insertar()">Insertar</button>
+    <script>
+      function insertar() {
+        data = {
+          nombre: document.getElementById("nombre").value,
+          edad: document.getElementById("edad").value,
+          carrera: document.getElementById("carrera").value
+        }
+        fetch('estudiante/insertar', {
+          method: 'post',
+          headers: {'Accept': 'application/json, text/plain, */*','Content-Type': 'application/json'},
+          body: JSON.stringify(data)
+        })
+        .then(function(response) {
+          return response.json();
+        })
+        .then(function(json) {
+          console.log(json);
+        })
+      }
+    </script>
+  </body>
+</html>

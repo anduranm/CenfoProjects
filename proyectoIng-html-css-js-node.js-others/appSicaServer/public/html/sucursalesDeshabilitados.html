@@ -1,0 +1,177 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="sucursales">SICA Sucursales</title>
+    <link rel="stylesheet" type="text/css" href="https://meyerweb.com/eric/tools/css/reset/reset200802.css">
+    <link rel="stylesheet" type="text/css" href="../css/sucursalesDeshabilitados.css">
+    <link rel="stylesheet" type="text/css" href="../css/bitacora.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" type="image/gif" href="../media/faviconSica.ico" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav class="nav" id="nav">
+            <div class="logo">
+                <a href="indexSica.html">
+                    <p class="logo1">
+                        ProveGuard
+                    </p>
+                    <p class="logo2">
+                        SICA
+                    </p>
+                </a>
+            </div>
+            <a class="Bitacora">
+                <img class="config" src="../media/engranaje.png" alt="Configuración">
+            </a>
+        </nav>
+        <nav class="menu">
+            <a class="aMenu active">
+                <p class="sucursales">
+                    SUCURSALES
+                </p>
+            </a>
+            <a class="aMenu" href="activos.html">
+                <p class="inventario">
+                    INVENTARIO
+                </p>
+            </a>
+            <a class="aMenu" href="planilla.html">
+                <p class="planilla">
+                    PLANILLA
+                </p>
+            </a>
+            <a class="aMenu" href="solicitudes.html">
+                <p class="solicitudes">
+                    SOLICITUDES
+                </p>
+            </a>
+        </nav>
+    </header>
+
+    <div id="bitacora">
+        <div class="recientes">
+            <div class="grupoReloj">
+                <img class="reloj" src="../media/R.png" alt="">
+                <p class="pRecientes"><b>Recientes</b></p>
+            </div>
+            <p class="welcome">Bienvenido</p>
+        </div>
+
+        <div class="contenido">
+            <div class="tabla">
+                <table id="activosRecientes" class="estilosBitacoraTable">
+                    <thead>
+                        <tr class="titleBitacoraTable">
+                            <th scope="titleRow" class="titleBitacoraTable">
+                                <h2 class="tituloBitacoraTable">ID</h2>
+                            </th>
+                            <th class="titleBitacoraTable">
+                                <h2 class="tituloBitacoraTable">Nombre</h2>
+                            </th>
+                            <th class="titleBitacoraTable">
+                                <h2 class="tituloBitacoraTable">Descripción</h2>
+                            </th>
+                            <th class="titleBitacoraTable">
+                                <h2 class="tituloBitacoraTable">Posición física</h2>
+                            </th>
+                            <th class="titleBitacoraTable">
+                                <h2 class="tituloBitacoraTable">Sede</h2>
+                            </th>
+                            <th class="titleBitacoraTable">
+                                <h2 class="tituloBitacoraTable">Estado</h2>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- contenido -->
+                    </tbody>
+                </table>
+            </div>
+            <div class="botones">
+                <h2 class="usuario">Ha Iniciado Sesión Como:</h2>
+
+                <table class="nombrePersona">
+                </table>
+                <div class="botonesBitacora">
+                    <a href="reportes.html"><button class="btnReportes btnBitacora">Reportes</button></a>
+                    <a href="cerrarSesion.html"><button class="btnCerrar btnBitacora">Cerrar Sesión</button></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <main id="main">
+
+        <div class="navSucursales">
+
+            <div class="search btnInventario">
+                <input type="text" id="buscador" class="buscar" placeholder="Buscar...">
+                <a id="">
+                    <img class="imgBuscar" id="iniciarBusqueda" src="../media/lupa.png" alt="Search">
+                </a>
+            </div>
+
+            <a href="sucursales.html">
+                <button class="btnHabilitados btnSucursal">
+                    Habilitados
+                </button>
+            </a>
+
+
+        </div>
+
+        <div class="table-wrapper">
+            <table id="sucursalesDeshabilitadoTable" class="estilosTable">
+                <thead>
+                    <tr class="titleTable">
+                        <th scope="titleRow" class="titleTable">
+                            <h2 class="tituloTable">ID</h2>
+                        </th>
+                        <th class="titleTable">
+                            <h2 class="tituloTable">Nombre</h2>
+                        </th>
+                        <th class="titleTable">
+                            <h2 class="tituloTable">Descripción</h2>
+                        </th>
+                        <th class="titleTable">
+                            <h2 class="tituloTable">Posición física</h2>
+                        </th>
+                        <th class="titleTable">
+                            <h2 class="tituloTable">Sede</h2>
+                        </th>
+                        <th class="titleTable">
+                            <h2 class="tituloTable">Estado</h2>
+                        </th>
+                        <th class="titleTable">
+                            <h2 class="titulo">Habilitar</h2>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody class="tableForImg">
+                    <!-- contenido -->
+                    <!-- inyectado de js -->
+                </tbody>
+            </table>
+        </div>
+
+    </main>
+
+    <footer>
+
+    </footer>
+    <script id="script" src="../js/bitacora.js"></script>
+    <script id="script" src="../js/sucursalesDeshabilitados.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Servidor arriba</h1>
+  <table id="tabla"></table>
+  <script>
+    fetch("http://localhost:5000/estudiantes/listar")
+      .then(function(data){
+        return data.json();
+      })
+      .then(function(json){
+        tabla = document.getElementById("tabla");
+        for(var i=0; i<json.length; i++){
+          var linea = "<tr><td>"+json[i].nombre+"</td><td>"+json[i].carrera+"</td><td>"+json[i].edad+"</td></tr>";
+          tabla.insertAdjacentHTML("beforeEnd", linea);
+        }
+      })
+  </script>
+</body>
+</html>

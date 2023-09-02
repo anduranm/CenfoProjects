@@ -1,0 +1,29 @@
+
+        /*Hoja de estilos metido en el codigo */
+        h1 {
+            color:blue;
+            text-align: center;
+            text-transform: uppercase;
+            text-decoration: underline;
+            text-shadow: 10px 10px 30px red;
+                     /* en x,en y, dureza color  */
+        }
+        a {
+            font-family: 'Cinzel', serif;
+            text-decoration: none;
+            color:violet;
+        }
+        p {
+            font-size: 20px;
+            /*letter-spacing: 10px;
+            word-spacing: 40px;
+            line-height: 40px; */
+        }
+
+        .titulo {
+            text-align:left;
+        }
+
+        .alinearderecha {
+            text-align: right;            
+        }

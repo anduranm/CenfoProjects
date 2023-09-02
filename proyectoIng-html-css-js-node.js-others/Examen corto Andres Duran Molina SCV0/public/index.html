@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="https://meyerweb.com/eric/tools/css/reset/reset200802.css">
+  <link rel="stylesheet" href="index.css">
+  <link rel="shortcut icon" type="image/gif" href="faviconFood.ico" />
+  <title>Recipe Maker</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+  </style>
+</head>
+
+<body>
+  <header>
+    <section class="nav">
+      <h1 class="title"><span class="cursive">Bienvenidos</span> al app para crear recetas</h1>
+      <a class="linkRecetas" href="#todaLalista"><p>Ir a lista de recetas</p></a>
+    </section>
+
+  </header>
+
+  <main>
+    <p class="titleTwo">Ingresa el nombre y los ingredientes y el precio de la receta:</p>
+    <div class="ingredientes">
+      <input type="text" placeholder="Nombre de receta" name="nombre" id="nombre" class="inputText"/>
+
+      <div class="IngredientesAseleccionar">
+        <p>Seleccione la proteina:</p>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre1" id="ingre1" value="Res">
+          Res
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre1" id="ingre1" value="Pollo" >
+          Pollo
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre1" id="ingre1" value="Mariscos">
+          Mariscos
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre1" id="ingre1" value="Pescado">
+          Pescado
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre1" id="ingre1" value="Cerdo">
+          Cerdo
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre1" id="ingre1" value="Cordero">
+          Cordero
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre1" id="ingre1" value="Pavo">
+          Pavo
+        </label>
+      </div>
+
+      <div class="IngredientesAseleccionar">
+        <p>Seleccione el grano:</p>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre2" id="ingre2" value="Arroz">
+          Arroz
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre2" id="ingre2" value="Maiz">
+          Maiz
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre2" id="ingre2" value="Frijoles">
+          Frijoles
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre2" id="ingre2" value="Lentejas">
+          Lentejas
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre2" id="ingre2" value="Garbanzos">
+          Garbanzos
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre2" id="ingre2" value="Quinoa">
+          Quinoa
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre2" id="ingre2" value="Cuscus">
+          Cuscus
+        </label>
+      </div>
+
+      <div class="IngredientesAseleccionar">
+        <p>Seleccione tubérculo:</p>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre3" id="ingre3" value="Papa">
+          Papa
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre3" id="ingre3" value="Malanga">
+          Malanga
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre3" id="ingre3" value="Yuca">
+          Yuca
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre3" id="ingre3" value="Camote">
+          Camote
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre3" id="ingre3" value="Ñame">
+          Ñame
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre3" id="ingre3" value="Tiquisque">
+          Tiquisque
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre3" id="ingre3" value="Ñampí">
+          Ñampí
+        </label>
+      </div>
+
+      <div class="IngredientesAseleccionar">
+        <p>Seleccione Vegetal Acuoso:</p>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre4" id="ingre4" value="Zanahoria">
+          Zanahoria
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre4" id="ingre4" value="Vainica">
+          Vainica
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre4" id="ingre4" value="Chayote">
+          Chayote
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre4" id="ingre4" value="Nabo">
+          Nabo
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre4" id="ingre4" value="Rabano">
+          Rabano
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre4" id="ingre4" value="Pepino">
+          Pepino
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre4" id="ingre4" value="Tomate">
+          Tomate
+        </label>
+      </div>
+
+
+      <div class="IngredientesAseleccionar">
+        <p>Seleccione Vegetal de hoja:</p>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre5" id="ingre5" value="Espinaca">
+          Espinaca
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre5" id="ingre5" value="Acelga">
+          Acelga
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre5" id="ingre5" value="Apio">
+          Apio
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre5" id="ingre5" value="Hinojo">
+          Hinojo
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre5" id="ingre5" value="Pak choy">
+          Pak choy
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre5" id="ingre5" value="Mostaza China">
+          Mostaza China
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre5" id="ingre5" value="Berro">
+          Berro
+        </label>
+      </div>
+
+      <div class="IngredientesAseleccionar">
+        <p>Seleccione especia fresca:</p>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre6" id="ingre6" value="Cebolla">
+          Cebolla
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre6" id="ingre6" value="Cebollin">
+          Cebollin
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre6" id="ingre6" value="Ajo">
+          Ajo
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre6" id="ingre6" value="Chile dulce">
+          Chile dulce
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre6" id="ingre6" value="Perejil">
+          Perejil
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre6" id="ingre6" value="Culantro">
+          Culantro
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre6" id="ingre6" value="Tomillo">
+          Tomillo
+        </label>
+      </div>
+      
+      <div class="IngredientesAseleccionar">
+        <p>Seleccione especie:</p>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre7" id="ingre7" value="Curry">
+          Curry
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre7" id="ingre7" value="Curcuma">
+          Curcuma
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre7" id="ingre7" value="Comino">
+          Comino
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre7" id="ingre7" value="Pimienta">
+          Pimienta
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre7" id="ingre7" value="Jamica">
+          Jamica
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre7" id="ingre7" value="Canela">
+          Canela
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre7" id="ingre7" value="Jengibre">
+          Jengibre
+        </label>
+      </div>
+      <div class="IngredientesAseleccionar">
+        <p>Seleccione tipo de cocción:</p>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre8" id="ingre8" value="Sopa">
+          Sopa
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre8" id="ingre8" value="Frito">
+          Frito
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre8" id="ingre8" value="Estofado">
+          Estofado
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre8" id="ingre8" value="Parrilla">
+          Parrilla
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre8" id="ingre8" value="Cocción Lenta">
+          Cocción Lenta
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre8" id="ingre8" value="Sous vide">
+          Sous vide
+        </label>
+        <label class="espacioEntre">
+          <input class="radioButton" type="radio" name="ingre8" id="ingre8" value="Horno">
+          Horno
+        </label>
+      </div>
+      <input class="inputText" type="text" name="precio" id="precio" placeholder="Digite el precio">
+      <button onclick="insertar()" id="enviar" class="send">Enviar</button>
+    </div>
+
+    <p class="listaDeRecetas">Lista De Recetas</p>
+
+    <div class="RecetasTable" id="todaLalista">
+      <table id="recetasTable" class="estilosTable">
+        <thead>
+          <tr class="titleTable">
+            <th scope="titleRow" class="titleTable">
+              <h2 class="tituloTable"><span class="initial">N</span>ombre de Receta</h2>
+            </th>
+            <th class="titleTable">
+              <h2 class="tituloTable"><span class="initial">I</span>ngrediente 1</h2>
+            </th>
+            <th class="titleTable">
+              <h2 class="tituloTable"><span class="initial">I</span>ngrediente 2</h2>
+            </th>
+            <th class="titleTable">
+              <h2 class="tituloTable"><span class="initial">I</span>ngrediente 3</h2>
+            </th>
+            <th class="titleTable">
+              <h2 class="tituloTable"><span class="initial">I</span>ngrediente 4</h2>
+            </th>
+            <th class="titleTable">
+              <h2 class="tituloTable"><span class="initial">I</span>ngrediente 5</h2>
+            </th>
+            <th class="titleTable">
+              <h2 class="titulo"><span class="initial">I</span>ngrediente 6</h2>
+            </th>
+            <th class="titleTable">
+              <h2 class="titulo"><span class="initial">I</span>ngrediente 7</h2>
+            </th>
+            <th class="titleTable">
+              <h2 class="titulo"><span class="initial">I</span>ngrediente 8</h2>
+            </th>
+            <th class="titleTable">
+              <h2 class="titulo"><span class="initial">P</span>recio</h2>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- contenido de tablas -->
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+</body>
+<footer>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<script src="index.js"></script>
+</html>

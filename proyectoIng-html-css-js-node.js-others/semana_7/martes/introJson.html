@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- no usar comillas simples, dividir en coma no punto y coma, puede tomar cualquier tipo de dato -->
+<!-- no es un lenguaje de programacion es una estructura de datos -->
+    <script>
+        var json = {
+            "nombre": "Bruce Wayne",
+            "edad": 36,
+            "identidad": "Batman",
+            "empresas": ["Wayne Tower", "Wayne Enterprises", "Wayne Foundation"]
+        };
+
+        console.log(json.nombre);
+        console.log(json.edad);
+        console.log(json.identidad);
+        console.log(json.empresas);
+
+        for (var i=0; i<json.empresas.length; i++){
+            console.log(json.empresas[i]);
+        }
+
+        var heroes = [
+        {
+            "superhero":"Batman",
+            "publisher":"DC comics",
+            "alter_ego":"Bruce Wayne"
+        },
+        {
+            "superhero":"Superman",
+            "publisher":"DC comics",
+            "alter_ego":"Kal-El"
+        },
+        {
+            "superhero":"Flash",
+            "publisher":"DC comics",
+            "alter_ego":"Jay Garrick"
+        }
+    ];
+
+    console.log(heroes);
+
+    for(var i=0; i<heroes.length; i++){
+        console.log(heroes[i].superhero);
+    }
+    </script>
+
+</body>
+</html>

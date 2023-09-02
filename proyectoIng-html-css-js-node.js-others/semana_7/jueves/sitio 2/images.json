@@ -1,0 +1,36 @@
+{
+    "imagenes": [
+      {
+        "id": 1,
+        "ruta": "img/producto-a.jpg"
+      },
+      {
+        "id": 2,
+        "ruta": "img/producto-b.jpg"
+      },
+      {
+        "id": 3,
+        "ruta": "img/producto-c.jpg"
+      },
+      {
+        "id": 4,
+        "ruta": "img/producto-d.jpg"
+      },
+      {
+        "id": 5,
+        "ruta": "img/producto-a.jpg"
+      },
+      {
+        "id": 6,
+        "ruta": "img/producto-b.jpg"
+      },
+      {
+        "id": 7,
+        "ruta": "img/producto-c.jpg"
+      },
+      {
+        "id": 8,
+        "ruta": "img/producto-d.jpg"
+      }
+    ]
+  }
