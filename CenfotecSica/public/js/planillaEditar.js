@@ -1,3 +1,13 @@
+//quitar si no es jefatura que pueda cambiar de rol a jefatura
+var rol = localStorage.getItem("rol");
+if (rol == "Jefatura") {
+    var select = document.getElementById("rolNuevo");
+var option = document.createElement("option");
+option.text = "Jefatura";
+option.value = "1";
+select.add(option);
+};
+
 fetch('/sucursal/listarSucursales')
     .then(response => response.json())
     .then(data => {
@@ -40,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
             let rol = localStorage.getItem("rol");
 
 
-            if (rol == "Jefatura" || rol == "Proveeduría") {
+            if (rol == "Jefatura" || rol == "Proveeduría" || rol == "Jefe de Proveeduría") {
                 function cargarContenido(data, idSolicitado) {
                     var nombre = document.getElementById('nombre');
                     var cedula = document.getElementById('cedula');
@@ -60,8 +70,6 @@ document.addEventListener("DOMContentLoaded", function () {
                         cell.colSpan = 9;
                         cell.textContent = `No se encontró ningún activo con el ID ${idSolicitado}.`;
                     } else {
-                        console.log(planillaSolicitado.nombre);
-                        // Seleccionar el elemento input
 
 
                         // Agregar el placeholder

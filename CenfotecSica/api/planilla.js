@@ -159,7 +159,7 @@ console.log(req.body.correo);
                           <td>Por favor cambiar la contraseña en el siguiente link</td>
                       </tr>
                       <tr id="trNodeMailerId5" class="class-tr-nodemailer">
-                          <td><a class="link-nodemailer" href="http://localhost:5000/html/login/restablecercontra2.html?${req.body._id}${codigoAutogenerado}">Cambiar Contraña.</a></td>
+                          <td><a class="link-nodemailer" target="_blank" href="https://aduranm-engineering-project-cenfotec.azurewebsites.net/html/login/restablecercontra2.html?${req.body._id}${codigoAutogenerado}">Cambiar Contraña.</a></td>
                       </tr>
                       </tbody>
                   </table>
@@ -253,7 +253,7 @@ console.log(req.body.correo);
                           <td>Por favor cambiar la contraseña en el siguiente link</td>
                       </tr>
                       <tr id="trNodeMailerId5" class="class-tr-nodemailer">
-                          <td><a class="link-nodemailer" href="http://localhost:5000/html/login/restablecercontra2.html?${req.body._id}${codigoAutogenerado}">Cambiar Contraña.</a></td>
+                          <td><a class="link-nodemailer" target="_blank" href="https://aduranm-engineering-project-cenfotec.azurewebsites.net/html/login/restablecercontra2.html?${req.body._id}${codigoAutogenerado}">Cambiar Contraña.</a></td>
                       </tr>
                       </tbody>
                   </table>

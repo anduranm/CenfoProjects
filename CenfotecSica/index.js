@@ -1,6 +1,8 @@
 var express = require('express');
 var path = require('path');
 var app = express();
+// 5000 is an example port, esto significa que el puerto es adaptativo, buscara automaticamente a cual puerto conectarse
+const port = process.env.PORT || 5000
 
 var mongoose = require('mongoose');
 
@@ -30,6 +32,6 @@ app.use('/planillaSolicitudes',require('./api/planillaSolicitudes.js'));
 
 
 
-app.listen(5000, function() {
+app.listen(port, function() {
   console.log('Servidor corriendo en puerto 5000...')
 });
